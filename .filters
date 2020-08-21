@@ -1,13 +1,13 @@
 {
-  "code" : [ "[FLOW]DOCKDOORS" ],
-  "name" : [ "[FLOW]DOCKDOORS" ],
+  "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY" ],
+  "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY" ],
   "description" : [ "Reports" ],
-  "objectName" : [ "[FLOW] Dock Doors" ],
+  "objectName" : [ "[FLOW] Dock Doors", "Asset_History" ],
   "source" : [ "www.vizix.io" ],
   "type" : [ "ReportDefinition" ],
   "tenant" : [ ">IKEA" ],
   "tags" : [ "Reports" ],
-  "objectType" : [ "table" ],
+  "objectType" : [ "table", "tableTimeSeries" ],
   "committer" : [ "root" ],
   "author" : [ "IKEAroot" ]
 }
