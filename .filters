@@ -1,0 +1,13 @@
+{
+  "code" : [ "[FLOW]DOCKDOORS" ],
+  "name" : [ "[FLOW]DOCKDOORS" ],
+  "description" : [ "Reports" ],
+  "objectName" : [ "[FLOW] Dock Doors" ],
+  "source" : [ "www.vizix.io" ],
+  "type" : [ "ReportDefinition" ],
+  "tenant" : [ ">IKEA" ],
+  "tags" : [ "Reports" ],
+  "objectType" : [ "table" ],
+  "committer" : [ "root" ],
+  "author" : [ "IKEAroot" ]
+}
