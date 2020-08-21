@@ -1,8 +1,8 @@
 {
-  "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY" ],
-  "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY" ],
+  "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS" ],
+  "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS" ],
   "description" : [ "Reports" ],
-  "objectName" : [ "[FLOW] Dock Doors", "Asset_History" ],
+  "objectName" : [ "[FLOW] Dock Doors", "Asset_History", "BU Stats" ],
   "source" : [ "www.vizix.io" ],
   "type" : [ "ReportDefinition" ],
   "tenant" : [ ">IKEA" ],
