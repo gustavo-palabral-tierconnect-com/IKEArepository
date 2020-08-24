@@ -1,8 +1,8 @@
 {
-  "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARULES", "MQTTFLOWDD" ],
-  "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD" ],
+  "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARULES", "MQTTFLOWDD", "EDGETAGEVENT" ],
+  "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent" ],
   "description" : [ "Reports", "Rules" ],
-  "objectName" : [ "[FLOW] Dock Doors", "Asset_History", "BU Stats", "[FLOW] VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD" ],
+  "objectName" : [ "[FLOW] Dock Doors", "Asset_History", "BU Stats", "[FLOW] VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent" ],
   "source" : [ "www.vizix.io" ],
   "type" : [ "ReportDefinition", "EdgeboxRule" ],
   "tenant" : [ ">IKEA" ],
