@@ -1,13 +1,13 @@
 {
-  "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS" ],
-  "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS" ],
-  "description" : [ "Reports" ],
-  "objectName" : [ "[FLOW] Dock Doors", "Asset_History", "BU Stats", "[FLOW] VMOBSYNCEDASSETS" ],
+  "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARULES" ],
+  "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARules" ],
+  "description" : [ "Reports", "Rules" ],
+  "objectName" : [ "[FLOW] Dock Doors", "Asset_History", "BU Stats", "[FLOW] VMOBSYNCEDASSETS", "IKEARules" ],
   "source" : [ "www.vizix.io" ],
-  "type" : [ "ReportDefinition" ],
+  "type" : [ "ReportDefinition", "EdgeboxRule" ],
   "tenant" : [ ">IKEA" ],
-  "tags" : [ "Reports" ],
-  "objectType" : [ "table", "tableTimeSeries" ],
+  "tags" : [ "Reports", "Rules" ],
+  "objectType" : [ "table", "tableTimeSeries", "" ],
   "committer" : [ "root" ],
   "author" : [ "IKEAroot", "root" ]
 }
