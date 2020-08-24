@@ -1,8 +1,8 @@
 {
-  "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARULES", "MQTTFLOWDD", "EDGETAGEVENT", "DOCKDOORACTION", "ALEBLINK", "MQQTTFLOWPUSH", "VEASSETUPDATE", "VESTARTUPDATEMQTT", "VEENDUPDATEMQTT", "RECEIVINGGATEEVENT", "RECEIVINGGATEMQTT" ],
-  "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent", "DockDoorAction", "AleBlink", "MQQTTFLOWPUSH", "VEAssetUpdate", "VEStartUpdateMQTT", "VEEndUpdateMQTT", "ReceivingGateEvent", "ReceivingGateMQTT" ],
+  "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARULES", "MQTTFLOWDD", "EDGETAGEVENT", "DOCKDOORACTION", "ALEBLINK", "MQQTTFLOWPUSH", "VEASSETUPDATE", "VESTARTUPDATEMQTT", "VEENDUPDATEMQTT", "RECEIVINGGATEEVENT", "RECEIVINGGATEMQTT", "[FLOW]RTIDETAILASSETS" ],
+  "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent", "DockDoorAction", "AleBlink", "MQQTTFLOWPUSH", "VEAssetUpdate", "VEStartUpdateMQTT", "VEEndUpdateMQTT", "ReceivingGateEvent", "ReceivingGateMQTT", "[FLOW]RTIDETAILASSETS" ],
   "description" : [ "Reports", "Rules" ],
-  "objectName" : [ "[FLOW] Dock Doors", "Asset_History", "BU Stats", "[FLOW] VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent", "DockDoorAction", "AleBlink", "MQQTTFLOWPUSH", "VEAssetUpdate", "VEStartUpdateMQTT", "VEEndUpdateMQTT", "ReceivingGateEvent", "ReceivingGateMQTT" ],
+  "objectName" : [ "[FLOW] Dock Doors", "Asset_History", "BU Stats", "[FLOW] VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent", "DockDoorAction", "AleBlink", "MQQTTFLOWPUSH", "VEAssetUpdate", "VEStartUpdateMQTT", "VEEndUpdateMQTT", "ReceivingGateEvent", "ReceivingGateMQTT", "[FLOW]RTI Detail (Assets)" ],
   "source" : [ "www.vizix.io" ],
   "type" : [ "ReportDefinition", "EdgeboxRule" ],
   "tenant" : [ ">IKEA" ],
