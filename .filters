@@ -1,8 +1,8 @@
 {
-  "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARULES", "MQTTFLOWDD", "EDGETAGEVENT", "DOCKDOORACTION", "ALEBLINK", "MQQTTFLOWPUSH", "VEASSETUPDATE" ],
-  "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent", "DockDoorAction", "AleBlink", "MQQTTFLOWPUSH", "VEAssetUpdate" ],
+  "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARULES", "MQTTFLOWDD", "EDGETAGEVENT", "DOCKDOORACTION", "ALEBLINK", "MQQTTFLOWPUSH", "VEASSETUPDATE", "VESTARTUPDATEMQTT" ],
+  "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent", "DockDoorAction", "AleBlink", "MQQTTFLOWPUSH", "VEAssetUpdate", "VEStartUpdateMQTT" ],
   "description" : [ "Reports", "Rules" ],
-  "objectName" : [ "[FLOW] Dock Doors", "Asset_History", "BU Stats", "[FLOW] VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent", "DockDoorAction", "AleBlink", "MQQTTFLOWPUSH", "VEAssetUpdate" ],
+  "objectName" : [ "[FLOW] Dock Doors", "Asset_History", "BU Stats", "[FLOW] VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent", "DockDoorAction", "AleBlink", "MQQTTFLOWPUSH", "VEAssetUpdate", "VEStartUpdateMQTT" ],
   "source" : [ "www.vizix.io" ],
   "type" : [ "ReportDefinition", "EdgeboxRule" ],
   "tenant" : [ ">IKEA" ],
