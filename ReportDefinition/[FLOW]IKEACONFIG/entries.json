@@ -1,0 +1,106 @@
+{
+  "Delete" : {
+    "bulkEdit" : false,
+    "createdByUser" : {
+      "getter" : "getByUsername",
+      "innerClass" : "User",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "root"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : ">root"
+      } ]
+    },
+    "newOption" : false,
+    "deleteOption" : true,
+    "displayOrder" : 2,
+    "defaultZPLTemplate" : null,
+    "label" : "",
+    "editOption" : true,
+    "associate" : false,
+    "disassociate" : false,
+    "defaultRFIDPrint" : null,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]IKEACONFIG"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "name" : "Delete",
+    "isMobile" : false,
+    "thingType" : null,
+    "group" : {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    }
+  },
+  "Edit Configuration" : {
+    "bulkEdit" : false,
+    "createdByUser" : {
+      "getter" : "getByUsername",
+      "innerClass" : "User",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "root"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : ">root"
+      } ]
+    },
+    "newOption" : true,
+    "deleteOption" : false,
+    "displayOrder" : 1,
+    "defaultZPLTemplate" : null,
+    "label" : "",
+    "editOption" : true,
+    "associate" : false,
+    "disassociate" : false,
+    "defaultRFIDPrint" : null,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]IKEACONFIG"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "name" : "Edit Configuration",
+    "isMobile" : false,
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "IKEACONFIG"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "group" : {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    }
+  }
+}
