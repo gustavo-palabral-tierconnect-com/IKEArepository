@@ -1,0 +1,989 @@
+{
+  "process" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "process",
+    "displayOrder" : 9,
+    "showHover" : false,
+    "label" : "process",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "process"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "businessUnit" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "businessUnit",
+    "displayOrder" : 7,
+    "showHover" : false,
+    "label" : "businessUnit",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "businessUnit"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "MobileSyncSessionID" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "MobileSyncSessionID",
+    "displayOrder" : 16,
+    "showHover" : false,
+    "label" : "MobileSyncSessionID",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MobileSyncSessionID"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "processState" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "processState",
+    "displayOrder" : 12,
+    "showHover" : false,
+    "label" : "processState",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "processState"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "inTimeOut" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "inTimeOut",
+    "displayOrder" : 13,
+    "showHover" : false,
+    "label" : "inTimeOut",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "inTimeOut"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "source" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "source",
+    "displayOrder" : 5,
+    "showHover" : false,
+    "label" : "source",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "source"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "sessionId" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "sessionId",
+    "displayOrder" : 19,
+    "showHover" : false,
+    "label" : "sessionId",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "sessionId"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "CountType" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "CountType",
+    "displayOrder" : 18,
+    "showHover" : false,
+    "label" : "CountType",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CountType"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "ledgerId" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "ledgerId",
+    "displayOrder" : 8,
+    "showHover" : false,
+    "label" : "ledgerId",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ledgerId"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "FirstDetectDate" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "FirstDetectDate",
+    "displayOrder" : 4,
+    "showHover" : false,
+    "label" : "FirstDetectDate",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "FirstDetectDate"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "processStartTime" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "processStartTime",
+    "displayOrder" : 10,
+    "showHover" : false,
+    "label" : "processStartTime",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "processStartTime"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "zone" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "zone",
+    "displayOrder" : 3,
+    "showHover" : false,
+    "label" : "zone",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "processStopTime" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "processStopTime",
+    "displayOrder" : 11,
+    "showHover" : false,
+    "label" : "processStopTime",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "processStopTime"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "UUIDMobile" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "UUIDMobile",
+    "displayOrder" : 17,
+    "showHover" : false,
+    "label" : "UUIDMobile",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "UUIDMobile"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "lastDetectTime" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "lastDetectTime",
+    "displayOrder" : 1,
+    "showHover" : false,
+    "label" : "lastDetectTime",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "lastDetectTime"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "EPC" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "serial",
+    "displayOrder" : 2,
+    "showHover" : false,
+    "label" : "EPC",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : null
+  },
+  "Asset_Type" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Asset_Type",
+    "displayOrder" : 6,
+    "showHover" : false,
+    "label" : "Asset_Type",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Asset_Type"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "outTimeOut" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "outTimeOut",
+    "displayOrder" : 14,
+    "showHover" : false,
+    "label" : "outTimeOut",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "outTimeOut"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "errorCondition" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]VMOBSYNCEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "errorCondition",
+    "displayOrder" : 15,
+    "showHover" : false,
+    "label" : "errorCondition",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "errorCondition"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  }
+}
