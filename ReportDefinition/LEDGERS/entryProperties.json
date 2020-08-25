@@ -1,0 +1,43 @@
+{
+  "Serial" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "serial",
+    "editInline" : false,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 1,
+    "thingTypeFieldId" : null,
+    "sortBy" : "",
+    "label" : "Serial",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Delete"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "Action" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "action",
+    "displayOrder" : 4,
+    "showHover" : false,
+    "label" : "Action",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "action"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "LEDGER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Business Unit" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "businessUnit",
+    "displayOrder" : 7,
+    "showHover" : false,
+    "label" : "Business Unit",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "businessUnit"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "LEDGER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "State" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "state",
+    "displayOrder" : 3,
+    "showHover" : false,
+    "label" : "State",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "state"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "LEDGER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Zone" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "dockDoor",
+    "displayOrder" : 10,
+    "showHover" : false,
+    "label" : "Zone",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "dockDoor"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "LEDGER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Action Date" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "actionDate",
+    "displayOrder" : 1,
+    "showHover" : false,
+    "label" : "Action Date",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "actionDate"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "LEDGER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Business Unit Name" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "businessUnitName",
+    "displayOrder" : 8,
+    "showHover" : false,
+    "label" : "Business Unit Name",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "businessUnitName"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "LEDGER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Count" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "count",
+    "displayOrder" : 9,
+    "showHover" : false,
+    "label" : "Count",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "count"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "LEDGER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Start Time" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "startTime",
+    "displayOrder" : 5,
+    "showHover" : false,
+    "label" : "Start Time",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "startTime"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "LEDGER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Stop Time" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "stopTime",
+    "displayOrder" : 6,
+    "showHover" : false,
+    "label" : "Stop Time",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "stopTime"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "LEDGER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Source" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "source",
+    "displayOrder" : 11,
+    "showHover" : false,
+    "label" : "Source",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "source"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "LEDGER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Ledger ID" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGERS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "serial",
+    "displayOrder" : 2,
+    "showHover" : false,
+    "label" : "Ledger ID",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LEDGER"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : null
+  }
+}
