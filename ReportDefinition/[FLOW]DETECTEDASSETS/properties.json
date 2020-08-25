@@ -1,0 +1,916 @@
+{
+  "yCoord" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "yCoord",
+    "displayOrder" : 7,
+    "showHover" : false,
+    "label" : "yCoord",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "yCoord"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "BuTypeSender" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "BuTypeSender",
+    "displayOrder" : 15,
+    "showHover" : false,
+    "label" : "BuTypeSender",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "BuTypeSender"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "tsEdgeIn" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "tsEdgeIn",
+    "displayOrder" : 17,
+    "showHover" : false,
+    "label" : "tsEdgeIn",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "tsEdgeIn"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "MHA" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "MHA",
+    "displayOrder" : 4,
+    "showHover" : false,
+    "label" : "MHA",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MHA"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "source" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "source",
+    "displayOrder" : 13,
+    "showHover" : false,
+    "label" : "source",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "source"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "FirstDetectTime_Flow" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "FirstDetectTime_Flow",
+    "displayOrder" : 10,
+    "showHover" : false,
+    "label" : "FirstDetectTime_Flow",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "FirstDetectTime_Flow"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "BoxId" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "BoxId",
+    "displayOrder" : 3,
+    "showHover" : false,
+    "label" : "BoxId",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "BoxId"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Rack" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Rack",
+    "displayOrder" : 5,
+    "showHover" : false,
+    "label" : "Rack",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Rack"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "FirstDetectDate" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "FirstDetectDate",
+    "displayOrder" : 9,
+    "showHover" : false,
+    "label" : "FirstDetectDate",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "FirstDetectDate"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "BuCodeSender" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "BuCodeSender",
+    "displayOrder" : 14,
+    "showHover" : false,
+    "label" : "BuCodeSender",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "BuCodeSender"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "xCoord" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "xCoord",
+    "displayOrder" : 6,
+    "showHover" : false,
+    "label" : "xCoord",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "xCoord"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "zone" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "zone",
+    "displayOrder" : 8,
+    "showHover" : false,
+    "label" : "zone",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "FirstDetectTime_ALE" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "FirstDetectTime_ALE",
+    "displayOrder" : 11,
+    "showHover" : false,
+    "label" : "FirstDetectTime_ALE",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "FirstDetectTime_ALE"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "zone ( Chamber.READER_IP )" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "zoneProperty.id,103",
+    "displayOrder" : 18,
+    "showHover" : false,
+    "label" : "zone ( Chamber.READER_IP )",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : null
+  },
+  "AuditId" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "AuditId",
+    "displayOrder" : 2,
+    "showHover" : false,
+    "label" : "AuditId",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "AuditId"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "lastDetectTime" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "lastDetectTime",
+    "displayOrder" : 12,
+    "showHover" : false,
+    "label" : "lastDetectTime",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "lastDetectTime"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "tsCoreIn" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "tsCoreIn",
+    "displayOrder" : 16,
+    "showHover" : false,
+    "label" : "tsCoreIn",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "tsCoreIn"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "EPC" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "serial",
+    "displayOrder" : 1,
+    "showHover" : false,
+    "label" : "EPC",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : null
+  }
+}
