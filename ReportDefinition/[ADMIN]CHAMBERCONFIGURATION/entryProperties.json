@@ -1,0 +1,763 @@
+{
+  "Site" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Site",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 2,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Site"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "Site",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : true
+  },
+  "BuInventoryProcess" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "BuInventoryProcess",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 6,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "BuInventoryProcess"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "BuInventoryProcess",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : true
+  },
+  "MaxReadingTime" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "MaxReadingTime",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 11,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MaxReadingTime"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "MaxReadingTime",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  },
+  "BuTypeSender" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "BuTypeSender",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 4,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "BuTypeSender"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "BuTypeSender",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : true
+  },
+  "GPIO_ID" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "GPIO_ID",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 13,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "GPIO_ID"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "GPIO_ID",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  },
+  "Reader_IP" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Reader_IP",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 12,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Reader_IP"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "Reader_IP",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : true
+  },
+  "MHA" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "MHA",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 7,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MHA"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "MHA",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : true
+  },
+  "BuCodeInventory" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "BuCodeInventory",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 5,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "BuCodeInventory"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "BuCodeInventory",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : true
+  },
+  "VerticalCoordinate" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "VerticalCoordinate",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 10,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "VerticalCoordinate"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "VerticalCoordinate",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  },
+  "HorizontalCoordinate" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "HorizontalCoordinate",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 9,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "HorizontalCoordinate"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "HorizontalCoordinate",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  },
+  "Rack" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Rack",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 8,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Rack"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "Rack",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  },
+  "BuCodeSender" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "BuCodeSender",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 3,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "BuCodeSender"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "CHAMBER"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "BuCodeSender",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : true
+  },
+  "serial" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CHAMBER"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "serial",
+    "editInline" : false,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 1,
+    "thingTypeFieldId" : null,
+    "sortBy" : "",
+    "label" : "serial",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Create/Update"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]CHAMBERCONFIGURATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  }
+}
