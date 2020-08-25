@@ -1,0 +1,186 @@
+{
+  "Delete" : {
+    "bulkEdit" : true,
+    "createdByUser" : {
+      "getter" : "getByUsername",
+      "innerClass" : "User",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "root"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : ">root"
+      } ]
+    },
+    "newOption" : false,
+    "deleteOption" : true,
+    "displayOrder" : 3,
+    "defaultZPLTemplate" : null,
+    "label" : "",
+    "editOption" : true,
+    "associate" : false,
+    "disassociate" : false,
+    "defaultRFIDPrint" : null,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "DOCKDOORS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "name" : "Delete",
+    "isMobile" : false,
+    "thingType" : null,
+    "group" : {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    }
+  },
+  "Start Process" : {
+    "bulkEdit" : true,
+    "createdByUser" : {
+      "getter" : "getByUsername",
+      "innerClass" : "User",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "root"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : ">root"
+      } ]
+    },
+    "newOption" : false,
+    "deleteOption" : false,
+    "displayOrder" : 1,
+    "defaultZPLTemplate" : null,
+    "label" : "",
+    "editOption" : true,
+    "associate" : false,
+    "disassociate" : false,
+    "defaultRFIDPrint" : null,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "DOCKDOORS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "name" : "Start Process",
+    "isMobile" : false,
+    "thingType" : null,
+    "group" : {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    }
+  },
+  "Configure Dock Door" : {
+    "bulkEdit" : true,
+    "createdByUser" : {
+      "getter" : "getByUsername",
+      "innerClass" : "User",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "root"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : ">root"
+      } ]
+    },
+    "newOption" : false,
+    "deleteOption" : false,
+    "displayOrder" : 4,
+    "defaultZPLTemplate" : null,
+    "label" : "",
+    "editOption" : true,
+    "associate" : false,
+    "disassociate" : false,
+    "defaultRFIDPrint" : null,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "DOCKDOORS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "name" : "Configure Dock Door",
+    "isMobile" : false,
+    "thingType" : null,
+    "group" : {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    }
+  },
+  "Stop Process" : {
+    "bulkEdit" : true,
+    "createdByUser" : {
+      "getter" : "getByUsername",
+      "innerClass" : "User",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "root"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : ">root"
+      } ]
+    },
+    "newOption" : false,
+    "deleteOption" : false,
+    "displayOrder" : 2,
+    "defaultZPLTemplate" : null,
+    "label" : "",
+    "editOption" : true,
+    "associate" : false,
+    "disassociate" : false,
+    "defaultRFIDPrint" : null,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "DOCKDOORS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "name" : "Stop Process",
+    "isMobile" : false,
+    "thingType" : null,
+    "group" : {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    }
+  }
+}

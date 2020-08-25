@@ -1,0 +1,66 @@
+{
+  "DockDoor" : {
+    "name" : "DockDoor",
+    "value" : "DockDoor",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "dockDoorType"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "dockDoorType"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "DOCKDOOR"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Configure Dock Door"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "DOCKDOORS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Chamber" : {
+    "name" : "Chamber",
+    "value" : "Chamber",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "dockDoorType"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "dockDoorType"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "DOCKDOOR"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Configure Dock Door"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "DOCKDOORS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  }
+}
