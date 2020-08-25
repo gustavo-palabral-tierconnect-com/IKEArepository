@@ -1,0 +1,66 @@
+{
+  "RECEIVING" : {
+    "name" : "RECEIVING",
+    "value" : "RECEIVING",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "process"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "process"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Inventory by Mobile"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "INVENTORYADJUSTMENTMOBILE"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "SHIPPING" : {
+    "name" : "SHIPPING",
+    "value" : "SHIPPING",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "process"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "process"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Inventory by Mobile"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "INVENTORYADJUSTMENTMOBILE"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  }
+}
