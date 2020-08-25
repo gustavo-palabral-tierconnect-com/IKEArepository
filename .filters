@@ -1,7 +1,7 @@
 {
   "code" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARULES", "MQTTFLOWDD", "EDGETAGEVENT", "DOCKDOORACTION", "ALEBLINK", "MQQTTFLOWPUSH", "VEASSETUPDATE", "VESTARTUPDATEMQTT", "VEENDUPDATEMQTT", "RECEIVINGGATEEVENT", "RECEIVINGGATEMQTT", "[FLOW]RTIDETAILASSETS", "DOCKDOORS", "[FLOW]CHAMBERINFO", "[FLOW]IKEACONFIG" ],
   "name" : [ "[FLOW]DOCKDOORS", "ASSET_HISTORY", "BUSTATS", "[FLOW]VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent", "DockDoorAction", "AleBlink", "MQQTTFLOWPUSH", "VEAssetUpdate", "VEStartUpdateMQTT", "VEEndUpdateMQTT", "ReceivingGateEvent", "ReceivingGateMQTT", "[FLOW]RTIDETAILASSETS", "DOCKDOORS", "[FLOW]CHAMBERINFO", "[FLOW]IKEACONFIG" ],
-  "description" : [ "Reports", "Rules" ],
+  "description" : [ "Reports", "Rules", "Adding new column" ],
   "objectName" : [ "[FLOW] Dock Doors", "Asset_History", "BU Stats", "[FLOW] VMOBSYNCEDASSETS", "IKEARules", "MqttFlowDD", "EdgeTagEvent", "DockDoorAction", "AleBlink", "MQQTTFLOWPUSH", "VEAssetUpdate", "VEStartUpdateMQTT", "VEEndUpdateMQTT", "ReceivingGateEvent", "ReceivingGateMQTT", "[FLOW]RTI Detail (Assets)", "Dock Doors", "[FLOW] Chamber Info", "[FLOW] IKEA CONFIG" ],
   "source" : [ "www.vizix.io" ],
   "type" : [ "ReportDefinition", "EdgeboxRule" ],
