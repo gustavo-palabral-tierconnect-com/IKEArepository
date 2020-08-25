@@ -1,0 +1,204 @@
+{
+  "Business Unit ID" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "INVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "serial",
+    "editInline" : false,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 1,
+    "thingTypeFieldId" : null,
+    "sortBy" : "",
+    "label" : "Business Unit ID",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update BU"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]BUSINESSUNITSINVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  },
+  "BU name" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "INVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "name",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 2,
+    "thingTypeFieldId" : null,
+    "sortBy" : "",
+    "label" : "BU name",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update BU"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]BUSINESSUNITSINVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  },
+  "Shipped Units" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "INVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "shipped",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 3,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "shipped"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "INVENTORY"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "Shipped Units",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update BU"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]BUSINESSUNITSINVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  },
+  "Receieved Units" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "INVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "received",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 4,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "received"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "INVENTORY"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "Receieved Units",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update BU"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]BUSINESSUNITSINVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  }
+}

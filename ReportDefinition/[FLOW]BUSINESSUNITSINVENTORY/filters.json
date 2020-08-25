@@ -1,0 +1,187 @@
+{
+  "Thing Type" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]BUSINESSUNITSINVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "thingType.id",
+    "editable" : false,
+    "displayOrder" : 2,
+    "label" : "Thing Type",
+    "thingType" : null,
+    "thingTypeField" : null,
+    "fieldType" : 0,
+    "value" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "INVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "operator" : "="
+  },
+  "businessunitid" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]BUSINESSUNITSINVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "serial",
+    "editable" : true,
+    "displayOrder" : 6,
+    "label" : "businessunitid",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "INVENTORY"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : null,
+    "fieldType" : 1,
+    "value" : "",
+    "operator" : "="
+  },
+  "Thing Facility Map" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]BUSINESSUNITSINVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "visibility.facilityMap",
+    "editable" : false,
+    "displayOrder" : 4,
+    "label" : "Thing Facility Map",
+    "thingType" : null,
+    "thingTypeField" : null,
+    "fieldType" : 0,
+    "value" : "false",
+    "operator" : "="
+  },
+  "Thing Owner Group" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]BUSINESSUNITSINVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "visibility.thingOwnerGroup",
+    "editable" : false,
+    "displayOrder" : 3,
+    "label" : "Thing Owner Group",
+    "thingType" : null,
+    "thingTypeField" : null,
+    "fieldType" : 0,
+    "value" : "true",
+    "operator" : "="
+  },
+  "businessunitname" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]BUSINESSUNITSINVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "name",
+    "editable" : true,
+    "displayOrder" : 5,
+    "label" : "businessunitname",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "INVENTORY"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : null,
+    "fieldType" : 1,
+    "value" : "",
+    "operator" : "="
+  },
+  "Date" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]BUSINESSUNITSINVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "relativeDate",
+    "editable" : false,
+    "displayOrder" : 1,
+    "label" : "Date",
+    "thingType" : null,
+    "thingTypeField" : null,
+    "fieldType" : 0,
+    "value" : "NOW",
+    "operator" : ""
+  }
+}
