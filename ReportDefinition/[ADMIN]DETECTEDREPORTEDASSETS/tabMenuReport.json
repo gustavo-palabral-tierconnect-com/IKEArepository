@@ -1,0 +1,68 @@
+{
+  "ADMIN|[ADMIN]DETECTEDREPORTEDASSETS" : {
+    "appTabMenu" : {
+      "getter" : "getByCodeAndAppTab",
+      "innerClass" : "AppTabMenu",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ADMIN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "RTI"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]DETECTEDREPORTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "chartView" : null
+  },
+  "OPERATIONS|[ADMIN]DETECTEDREPORTEDASSETS" : {
+    "appTabMenu" : {
+      "getter" : "getByCodeAndAppTab",
+      "innerClass" : "AppTabMenu",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "OPERATIONS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "RTI"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[ADMIN]DETECTEDREPORTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "chartView" : null
+  }
+}
