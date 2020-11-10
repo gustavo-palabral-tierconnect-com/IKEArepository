@@ -688,39 +688,6 @@
       } ]
     }
   },
-  "zone ( Chamber.READER_IP )" : {
-    "reportDefinition" : {
-      "getter" : "getByCodeAndHierarchyCode",
-      "innerClass" : "ReportDefinition",
-      "params" : [ {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "[FLOW]DETECTEDASSETS"
-      }, {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "${tenant.hierarchyCode}"
-      } ]
-    },
-    "propertyName" : "zoneProperty.id,103",
-    "displayOrder" : 18,
-    "showHover" : false,
-    "label" : "zone ( Chamber.READER_IP )",
-    "thingType" : {
-      "getter" : "getByCodeAndGroup",
-      "innerClass" : "ThingType",
-      "params" : [ {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "ASSET"
-      }, {
-        "getter" : "getByHierarchyCode",
-        "innerClass" : "Group",
-        "params" : "${tenant.hierarchyCode}"
-      } ]
-    },
-    "thingTypeField" : null
-  },
   "AuditId" : {
     "reportDefinition" : {
       "getter" : "getByCodeAndHierarchyCode",

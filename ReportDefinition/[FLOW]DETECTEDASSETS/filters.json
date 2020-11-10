@@ -1,4 +1,61 @@
 {
+  "EPC_EPC_PURE_IDENTITY_URI 3732581" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FLOW]DETECTEDASSETS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "EPC_EPC_PURE_IDENTITY_URI",
+    "editable" : false,
+    "displayOrder" : 14,
+    "label" : "EPC_EPC_PURE_IDENTITY_URI 3732581",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ASSET"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "EPC_EPC_PURE_IDENTITY_URI"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "ASSET"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "fieldType" : 26,
+    "value" : "",
+    "operator" : "~"
+  },
   "Thing Owner Group" : {
     "autoComplete" : false,
     "reportDefinition" : {
@@ -221,18 +278,18 @@
       "params" : [ {
         "getter" : "valueOf",
         "innerClass" : "String",
-        "params" : "bridge_tag_code"
+        "params" : "things_storage_lastvalue"
       }, {
         "getter" : "getByCodeAndGroup",
         "innerClass" : "ThingType",
         "params" : [ {
           "getter" : "valueOf",
           "innerClass" : "String",
-          "params" : "STR_400_DEFAULT"
+          "params" : "vizixMongoDB"
         }, {
           "getter" : "getByHierarchyCode",
           "innerClass" : "Group",
-          "params" : ">INDU"
+          "params" : ">root"
         } ]
       } ]
     },
